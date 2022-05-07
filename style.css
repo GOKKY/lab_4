@@ -1,0 +1,104 @@
+.grid {
+    display: grid;
+    width: 200px;
+    color: white;
+    border-radius: 12px;
+    background: rgb(75,75,75,255);
+    margin: auto auto;
+}
+
+#darkorange_sign {
+    width: 50px;
+    height: 40px;
+    color: white;
+    background: DarkOrange;
+    font-size: 30px;
+    text-align: center;
+}
+
+#darkorange_sign_border {
+    width: 50px;
+    height: 40px;
+    color: white;
+    border-radius: 0 0 10px 0;
+    background: DarkOrange;
+    font-size: 30px;
+    text-align: center;
+}
+
+#number {
+    width: 50px;
+    height: 40px;
+    color: white;
+    background: Gray;
+    font-size: 20px;
+    text-align: center;
+}
+
+#number_border {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: Gray;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0 0 0 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#sign {
+    width: 50px;
+    height: 40px;
+    color: white;
+    background: rgb(75,75,75,255);
+    font-size: 20px;
+    text-align: center; 
+}
+
+.top {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    border-radius: 8px 8px;
+    font-size: 45px;
+    padding: 8px;
+    background: rgb(75,75,75,255);
+    text-align: end;
+}
+
+.zero {
+    font-size: 50px;
+    margin: auto auto;
+}
+
+.circle_button {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    width: 10px;
+    grid-gap: 0.6vw;
+}
+
+.red_circle {
+    background: red;
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+}
+
+.orange_circle {
+    background: orange;
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;
+}
+
+.green_circle {
+    background: green;
+    border-radius: 100%;
+    height: 15px;
+    width: 15px;  
+}
+
+
+        
